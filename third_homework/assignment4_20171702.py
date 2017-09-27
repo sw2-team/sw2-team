@@ -1,5 +1,5 @@
 def recursive_factorial(x):
-    if x==0:
+    if x == 0:
         return 0
 
     if x == 1:
@@ -10,8 +10,10 @@ def recursive_factorial(x):
 while True:
 
 	n = int(input("수를 입력하세요: "))
+	
 	if n < 0:
 		break
+	
 	answer = recursive_factorial(n)
 
 	print(n,"! = ",answer)
